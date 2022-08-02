@@ -1,4 +1,4 @@
-const items = require("items");
+const items = require("./items.json");
 
 const baseUnitPrice = 1; // the lowest possible price to buy anything
 const currency = "emerald"; // what villagers will accept as currency
