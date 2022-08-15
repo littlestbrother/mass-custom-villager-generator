@@ -1,10 +1,10 @@
-const items = require("./items.json");
+const items = require("./categories.json");
 
 const baseUnitPrice = 1; // the lowest possible price to buy anything
 const currency = "emerald"; // what villagers will accept as currency
 
 // boilerplate for VillagerData
-const example = {
+const example = `{
   VillagerData: { profession: farmer, level: 2, type: plains },
   Invulnerable: 1,
   PersistenceRequired: 1,
@@ -14,12 +14,11 @@ const example = {
       // {
       //   buy: { id: emerald, Count: 5 },
       //   sell: { id: diamond, Count: 1 },
-      //   xp: 10,
       //   maxUses: 9999999,
       // },
     ],
   },
-};
+}`;
 
 // CLI or website to define prices? (probably a website)
 // serve categories to user, prompting an item price and a resulting count
