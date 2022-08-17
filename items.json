@@ -2,42 +2,42 @@
   "Eggs": [
     {
       "name": "minecraft:villager_spawn_egg",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:axolotl_spawn_egg",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:creeper_spawn_egg",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:slime_spawn_egg",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:cat_spawn_egg",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:wolf_spawn_egg",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:fox_spawn_egg",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:bee_spawn_egg",
-      "price": 1,
+      "price": 32,
       "count": 1
     }
   ],
@@ -45,193 +45,183 @@
     {
       "name": "minecraft:oak_log",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:birch_log",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:spruce_log",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:jungle_log",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:acacia_log",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:dark_oak_log",
       "price": 1,
-      "count": 1
+      "count": 32
     }
   ],
   "Minerals": [
     {
       "name": "minecraft:netherite_ingot",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:gold_ingot",
-      "price": 1,
-      "count": 1
+      "price": 32,
+      "count": 32
     },
     {
       "name": "minecraft:iron_ingot",
-      "price": 1,
-      "count": 1
-    },
-    {
-      "name": "minecraft:copper_ingot",
-      "price": 1,
-      "count": 1
+      "price": 32,
+      "count": 16
     },
     {
       "name": "minecraft:coal",
-      "price": 1,
-      "count": 1
+      "price": 16,
+      "count": 32
     },
     {
       "name": "minecraft:diamond",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:lapis_lazuli",
-      "price": 1,
-      "count": 1
+      "price": 8,
+      "count": 32
     },
     {
       "name": "minecraft:redstone",
-      "price": 1,
-      "count": 1
-    },
-    {
-      "name": "minecraft:amethyst_shard",
-      "price": 1,
-      "count": 1
+      "price": 4,
+      "count": 32
     },
     {
       "name": "minecraft:nether_quartz",
-      "price": 1,
-      "count": 1
+      "price": 4,
+      "count": 64
     },
     {
       "name": "minecraft:flint",
       "price": 1,
-      "count": 1
+      "count": 8
     }
   ],
   "Dye": [
     {
       "name": "minecraft:red_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:cyan_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:gray_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:pink_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:lime_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:blue_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:green_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:brown_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:black_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:white_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:purple_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:orange_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:yellow_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:magenta_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:light_gray_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:light_blue_dye",
       "price": 1,
-      "count": 1
+      "count": 16
     }
   ],
   "Blocks": [
     {
       "name": "minecraft:stone",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:prismarine",
       "price": 1,
-      "count": 1
+      "count": 8
     },
     {
       "name": "minecraft:grass_block",
       "price": 1,
-      "count": 1
+      "count": 8
     },
     {
       "name": "minecraft:glass",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:obsidian",
@@ -240,65 +230,65 @@
     },
     {
       "name": "minecraft:bedrock",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:clay",
       "price": 1,
-      "count": 1
+      "count": 8
     },
     {
       "name": "minecraft:white_concrete_powder",
       "price": 1,
-      "count": 1
+      "count": 8
     },
     {
       "name": "minecraft:sea_lantern",
       "price": 1,
-      "count": 1
+      "count": 8
     },
     {
       "name": "minecraft:white_wool",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:shulker_box",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:glowstone",
       "price": 1,
-      "count": 1
+      "count": 8
     }
   ],
   "Food": [
     {
       "name": "minecraft:cooked_beef",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:pumpkin_seeds",
       "price": 1,
-      "count": 1
+      "count": 4
     },
     {
       "name": "minecraft:melon_seeds",
       "price": 1,
-      "count": 1
+      "count": 4
     },
     {
       "name": "minecraft:wheat_seeds",
       "price": 1,
-      "count": 1
+      "count": 8
     },
     {
       "name": "minecraft:bread",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:cake",
@@ -307,7 +297,7 @@
     },
     {
       "name": "minecraft:bee_nest",
-      "price": 1,
+      "price": 8,
       "count": 1
     }
   ],
@@ -315,42 +305,42 @@
     {
       "name": "minecraft:rail",
       "price": 1,
-      "count": 1
+      "count": 16
     },
     {
       "name": "minecraft:saddle",
-      "price": 1,
+      "price": 4,
       "count": 1
     },
     {
       "name": "minecraft:spyglass",
-      "price": 1,
+      "price": 8,
       "count": 1
     },
     {
       "name": "minecraft:lead",
-      "price": 1,
+      "price": 8,
       "count": 1
     },
     {
       "name": "minecraft:name_tag",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:ender_pearl",
-      "price": 1,
+      "price": 16,
       "count": 1
     },
     {
       "name": "minecraft:firework_rocket",
-      "price": 1,
+      "price": 8,
       "count": 1
     },
     {
       "name": "minecraft:arrow",
       "price": 1,
-      "count": 1
+      "count": 32
     },
     {
       "name": "minecraft:slimeball",
@@ -375,7 +365,7 @@
     {
       "name": "minecraft:gunpowder",
       "price": 1,
-      "count": 1
+      "count": 6
     },
     {
       "name": "minecraft:phantom_membrane",
@@ -385,53 +375,53 @@
     {
       "name": "minecraft:book",
       "price": 1,
-      "count": 1
+      "count": 16
     }
   ],
   "Legendary": [
     {
       "name": "minecraft:heart_of_the_sea",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:conduit",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:wither_skeleton_skull",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:end_crystal",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:totem_of_undying",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:nether_star",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:turtle_shell",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
       "name": "minecraft:elytra",
-      "price": 1,
+      "price": 64,
       "count": 1
     },
     {
       "name": "minecraft:enchanted_golden_apple",
-      "price": 1,
+      "price": 32,
       "count": 1
     },
     {
@@ -441,7 +431,7 @@
     },
     {
       "name": "minecraft:dragon_breath",
-      "price": 1,
+      "price": 8,
       "count": 1
     }
   ],

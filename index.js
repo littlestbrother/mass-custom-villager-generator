@@ -1,7 +1,7 @@
-const items = require("./categories.json");
+const items = require("./items.json");
 
 const baseUnitPrice = 1; // the lowest possible price to buy anything
-const currency = "emerald"; // what villagers will accept as currency
+const currency = "minecraft:raw_copper"; // what villagers will accept as currency
 
 // boilerplate for VillagerData
 const example = `{
