@@ -1,0 +1,15 @@
+{
+  VillagerData: { profession: farmer, level: 2, type: plains },
+  Invulnerable: 1,
+    PersistenceRequired: 1,
+      CustomName: '"${category}"',
+        Offers: {
+    Recipes: [
+      {
+        buy: { id: ${ currency }, Count: ${ price } },
+  sell: { id: ${ itemName }, Count: ${ count } },
+  maxUses: 9999999,
+    },
+  ],
+},
+};

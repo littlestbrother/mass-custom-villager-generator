@@ -1,28 +1,42 @@
 const items = require("./items.json");
 
-const baseUnitPrice = 1; // the lowest possible price to buy anything
-const currency = "minecraft:raw_copper"; // what villagers will accept as currency
+const currency = "amethyst_cluster"; // what villagers will accept as currency
+const profession = 'fletcher';
+const type = 'taiga'
 
 // boilerplate for VillagerData
-const example = `{
-  VillagerData: { profession: farmer, level: 2, type: plains },
-  Invulnerable: 1,
-  PersistenceRequired: 1,
-  CustomName: '"Test"',
-  Offers: {
-    Recipes: [
-      // {
-      //   buy: { id: emerald, Count: 5 },
-      //   sell: { id: diamond, Count: 1 },
-      //   maxUses: 9999999,
-      // },
-    ],
-  },
-}`;
+const newCommand = (category) => {
+  return {
+    VillagerData: { profession, level: 5, type },
+    Invulnerable: 1,
+    PersistenceRequired: 1,
+    CustomName: "\"" + category + "\"",
+    Offers: {
+      Recipes: [
 
-// CLI or website to define prices? (probably a website)
-// serve categories to user, prompting an item price and a resulting count
-// skip items which have not been specified to be sold at a specific price
-// add search functionality?
-// make currency default, but can be changed for specific items?
-// lots of ideas!
+      ],
+    },
+  }
+}
+
+const newRecipe = (currency, { name, price, count }) => {
+  return {
+    buy: { id: currency, Count: price },
+    sell: { id: name, Count: count },
+    maxUses: 9999999,
+  }
+}
+
+for (const k in items) {
+  if (Object.hasOwnProperty.call(items, k)) {
+    const element = items[k];
+
+    // create basic command template
+    const command = newCommand(k)
+
+    for (const e of element) {
+      command.Offers.Recipes.push(newRecipe(currency, { ...e }));
+    }
+    console.log("💠 summon minecraft:villager ~ ~1 ~ ",JSON.stringify(command).replace(/\s/g, '', `\n\n`))
+  }
+}
